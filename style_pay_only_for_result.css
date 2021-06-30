@@ -1,0 +1,18 @@
+.pay-only-for-result-background{
+    background-color: #ECE5D4;
+    /* padding: 100px 0; */
+    height: 400px;
+}
+
+.content-pay-only-for-result{
+    position: relative;
+    height: 100%;
+}
+
+.pay-only-for-result-image-browser {
+    position: absolute;
+    width: 45%;
+    height: auto;
+    left: 0;
+    bottom: 0;
+}

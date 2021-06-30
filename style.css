@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #444444;
+}
+
+[class^=content]{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
