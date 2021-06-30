@@ -1,18 +1,26 @@
 .pay-only-for-result-background{
     background-color: #ECE5D4;
     /* padding: 100px 0; */
-    height: 400px;
+    /* height: 500px; */
 }
 
-.content-pay-only-for-result{
-    position: relative;
-    height: 100%;
-}
 
 .pay-only-for-result-image-browser {
-    position: absolute;
-    width: 45%;
+    position: relative;
+    /* position: absolute; */
+    width: 100%;
     height: auto;
-    left: 0;
-    bottom: 0;
+    /* left: 0;
+    bottom: 0; */
+    margin-top: -70px;
+    z-index: 30;
 }
+
+.pay-only-for-result-title{
+    font-size: 35px;
+    line-height: 50px;
+    color: #444444;
+    margin-top: 5vw;
+}
+
+
