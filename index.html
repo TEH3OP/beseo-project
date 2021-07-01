@@ -14,20 +14,19 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style_grid.css">
-    <link rel="stylesheet" href="style_title.css">
-    <link rel="stylesheet" href="style_welcome.css">
-    <link rel="stylesheet" href="style_pay_only_for_result.css">
+    <link rel="stylesheet" href="style_header.css">
+    <link rel="stylesheet" href="style_welcome_page.css">
+    <link rel="stylesheet" href="style_result_page.css">
 </head>
 
 <body>
-    <header>
-        <div class="title-background">
-            <div class="content-title">
+    <header class="header-background">
+            <div class="content-header">
                 <a href="#">
                     <img src="pics/logo.png" alt="Logo">
                 </a>
-                <nav class="title-navigation">
-                    <ul class="title-navigation-list">
+                <nav class="header-navigation">
+                    <ul class="header-navigation-list">
                         <li>Home</li>
                         <li>How it works?</li>
                         <li>Help Center</li>
@@ -35,7 +34,7 @@
                         <li>Contact</li>
                         <li>Buy now</li>
                     </ul>
-                    <button class="title-button-search">
+                    <button class="header-button-search">
                         <span class="material-icons">
                             search
                         </span>
@@ -49,25 +48,39 @@
                     </span>
                 </div>
             </div>
-        </div>
     </header>
     <main>
-        <div class="welcome-background">
-            <div class="content-welcome">
-                <div class="welcome-text">We are SEO/SEM agency.</div>
-                <div class="welcome-text">We can make your business visible.</div>
-                <img class="welcome-image-chart" src="pics/chart.png" alt="chart">
-                <img class="welcome-image-right" src="pics/home_seo_slider_woman.png" alt="Woman">
+        <div class="welcome-page-background">
+            <div class="content-welcome-page">
+                <div class="welcome-page-text">We are SEO/SEM agency.</div>
+                <div class="welcome-page-text">We can make your business visible.</div>
+                <img class="welcome-page-image-chart" src="pics/chart.png" alt="chart">
+                <img class="welcome-page-image-right" src="pics/home_seo_slider_woman.png" alt="Woman">
             </div>
         </div>
-        <div class="pay-only-for-result-background">
+        <div class="result-page-background">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6 col-xs-12">
-                        <img class="pay-only-for-result-image-browser" src="pics/home_seo_browser.png" alt="browser">
+                        <img class="result-page-image-browser" src="pics/home_seo_browser.png" alt="browser">
                     </div>
                     <div class="col-sm-6 col-xs-12">
-                        <div class="pay-only-for-result-title">Pay only for result</div>
+                        <div class="result-page-title">Pay only for result</div>
+                        <div class="result-page-frame">
+                            <div class="result-page-icon result-page-icon1"></div>
+                            <div>
+                                <div class="result-page-decription-title">Attract more customers</div>
+                                <div class="result-page-decription">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur delectus eveniet corrupti at ad sapiente, maxime, voluptas recusandae facilis magni reprehenderit debitis accusantium illo impedit</div>
+                            </div>
+                        </div>
+                        <div class="result-page-frame">
+                            <div class="result-page-icon result-page-icon2"></div>
+                            <div>
+                                <div class="result-page-decription-title">Start with any budget</div>
+                                <div class="result-page-decription">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur delectus eveniet corrupti at ad sapiente, maxime, voluptas recusandae facilis magni reprehenderit debitis accusantium illo impedit</div>
+                            </div>
+                        </div>
+                        <button class="result-page-button">Get free pricing</button>
                     </div>
                 </div>
             </div>
