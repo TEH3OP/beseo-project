@@ -1,25 +1,30 @@
-.footer-logo{
+.footer-background {
+    background-color: whitesmoke;
+    padding: 10px 0;
+}
+
+.footer-logo {
     width: 76px;
     height: 24px;
 }
 
-.footer-description-title{
+.footer-description-title {
     font-size: 16px;
     line-height: 30px;
 }
 
-.footer-description{
+.footer-description {
     margin-top: 20px;
     font-size: 13px;
     line-height: 20px;
 }
 
-.footer-frame-social-icons{
+.footer-frame-social-icons {
     display: flex;
     flex-wrap: wrap;
 }
 
-.footer-social-icon{
+.footer-social-icon {
     width: 43px;
     height: 43px;
     margin-right: 3px;
