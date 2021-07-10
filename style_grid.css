@@ -32,7 +32,17 @@
 
 .col-sm-4{
     flex: 0 0 33.33%;
-    min-width: 33.33%;
+    max-width: 33.33%;
+}
+
+.col-sm-5{
+    flex: 0 0 41.66%;
+    max-width: 41.66%;
+}
+
+.col-sm-7{
+    flex: 0 0 58.33%;
+    max-width: 58.33%;
 }
 
 @media (max-width:767px) {

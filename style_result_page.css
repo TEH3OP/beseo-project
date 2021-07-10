@@ -60,12 +60,7 @@
 }
 
 .result-page-button{
-    background: #40AC87;
-    border: none;
-    border-radius: 3px;
-    color: white;
     margin-bottom: 50px;
-    padding: 10px;
 }
 
 .result-page-button::before{

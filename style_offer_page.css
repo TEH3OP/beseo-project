@@ -38,14 +38,6 @@
     font-weight: 300;
 }
 
-.offer-page-description {
-    font-size: 13px;
-    line-height: 20px;
-    color: #626262;
-    font-weight: 300;
-    /* margin-bottom: 50px; */
-}
-
 .offer-page-margin-top>div{
     margin-top: 50px;
     animation: animation-zoom 1s;
